@@ -1,0 +1,25 @@
+{
+  "name": "hannan",
+  "version": "1.0.0",
+  "description": "learn oop",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdhannan/learn-oop.git"
+  },
+  "keywords": [
+    "php"
+  ],
+  "author": "abd hannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdhannan/learn-oop/issues"
+  },
+  "homepage": "https://github.com/abdhannan/learn-oop#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
