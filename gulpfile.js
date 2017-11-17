@@ -10,6 +10,6 @@ gulp.task('browser-sync', () => {
     var files = [ '**/*.php', '**/*.css' ];
     browserSync.init(files, {
         // ganti sesuai dengan url project
-        proxy: 'localhost/learn-oop/'
+        proxy: 'localhost/php-oop/bahlul/'
     });
 });
