@@ -15,4 +15,12 @@ class Ikan extends Hewan{
         $this->caraBergerak = 'Berenang';
     }
 
+    // method jg bsa d turunkan, klu method diturunkan namanya override
+    // jd method ini yang dipanggil oleh object yang d buat dr kelas ini
+    // bukan method yg d kelas parent
+    public function bergerak(){
+        echo 'semua ikan pasti bisa ' . $this->caraBergerak;        
+    }
+    
+
 }
