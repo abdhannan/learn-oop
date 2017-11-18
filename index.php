@@ -21,6 +21,7 @@
         echo 'Makanan kuda adalah = ' . $kuda->makanan;
         echo '<br>';
         echo 'Makanan burung adalah = ' . $burung->makanan;
+        echo '<hr>';
         
         // tapi tidak bisa mengakses property private
         // echo 'Makanan kuda adalah = ' . $kuda->caraBergerak;
@@ -40,6 +41,10 @@
         echo 'Makanan hiu adalah = ' . $hiu->makanan;
         echo '<br>';
         $hiu->bergerak();
+        
+        // coba panggil method static
+        echo '<hr>';
+        Hewan::test('dari luar kelas');
         
         ?>
       

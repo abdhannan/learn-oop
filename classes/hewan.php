@@ -30,13 +30,35 @@ class Hewan
         $this->caraBergerak = $caraBergerak;
 
         // jadi diatas itu ditetapkan property dr object yg dibuat
-    }
 
+    }
+    
     /**
      * method public artinya method ini bisa dipanggil dr luar scope class ini
      */
     public function bergerak()
     {
         echo 'hewan ini bergerak dengan ' . $this->caraBergerak;
+        self::test('dari method bergerak');
+    }
+
+    /**
+     * method public bisa d panggil dr mana aja
+     * method static artinya method ini adalah milik kelas ini sendiri
+     * sama seperti function pada umumnya
+     * method ini tidak bisa dipanggil oleh object ($this)
+     * tapi didalam method ini tidak bisa menggunakan property dan method object ($this)
+     *
+     * cara pemanggilannya adalah ::
+     * contoh
+     *  Hewan::test();
+     *
+     * kalau pemanggilan dr kelas ini sendiri
+     *  self::test();
+     *
+     */
+    public static function test($s)
+    {
+        echo "<br>Method static milik kelas " .__CLASS__ . " dipanggil " . $s . "<br>";
     }
 }
