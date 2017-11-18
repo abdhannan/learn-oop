@@ -1,19 +1,11 @@
 <?php
-
 class Hewan
 {
-
     // public artinya property ini bisa d akses dan d ubah dr luar badan/scope {} kelas ini
     public $makanan;
-<<<<<<< HEAD
-    // private artinya property ini tidak bisa d akses dan d ubah dr luar badan/scope {} kelas ini
-    private $caraBergerak;
-=======
     // private artinya property ini bisa d akses dan d ubah dr luar badan/scope {} kelas ini
     // kita ganti jd protected, artinya property ini cuma bsa diakses dr kelas ini dan turunannya.
     protected $caraBergerak;
->>>>>>> e4332fcd2f9bb9d056e8264b9b1e9d3c4f30a854
-
     /**
      * @contructor
      *
@@ -33,10 +25,8 @@ class Hewan
          * $caraBergerak adalah variable yg diterima contructor
          */
         $this->caraBergerak = $caraBergerak;
-
         // jadi diatas itu ditetapkan property dr object yg dibuat
     }
-
     /**
      * method public artinya method ini bisa dipanggil dr luar scope class ini
      */
