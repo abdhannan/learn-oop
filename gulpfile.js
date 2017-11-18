@@ -18,7 +18,8 @@ gulp.task('browser-sync', () => {
         // -----
         // ------ ganti nih ....
         // -----
-        proxy: 'localhost/php-oop/bahlul/'
+        // proxy: 'localhost/php-oop/bahlul/'
+        proxy: 'localhost/ws/tester/learn-oop/'
     });
 });
 
