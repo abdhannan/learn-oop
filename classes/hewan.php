@@ -6,7 +6,8 @@ class Hewan
     // public artinya property ini bisa d akses dan d ubah dr luar badan/scope {} kelas ini
     public $makanan;
     // private artinya property ini bisa d akses dan d ubah dr luar badan/scope {} kelas ini
-    private $caraBergerak;
+    // kita ganti jd protected, artinya property ini cuma bsa diakses dr kelas ini dan turunannya.
+    protected $caraBergerak;
 
     /**
      * @contructor

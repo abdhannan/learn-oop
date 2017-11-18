@@ -10,6 +10,7 @@
         <?php
         // include class file
         include('classes/hewan.php');
+        include('classes/ikan.php');
 
         // buat object dr class hewan
         // buat object kuda dan burung dengan nilai parameter contructor
@@ -20,7 +21,7 @@
         echo 'Makanan kuda adalah = ' . $kuda->makanan;
         echo '<br>';
         echo 'Makanan burung adalah = ' . $burung->makanan;
-
+        
         // tapi tidak bisa mengakses property private
         // echo 'Makanan kuda adalah = ' . $kuda->caraBergerak;
         echo '<br>';
@@ -32,7 +33,14 @@
         echo '<br>';
         echo 'burung : '; 
         $burung->bergerak();
-
+        
+        // buat object ikan
+        $hiu = new Ikan('Daging');
+        echo '<hr>';
+        echo 'Makanan hiu adalah = ' . $hiu->makanan;
+        echo '<br>';
+        $hiu->bergerak();
+        
         ?>
       
     </body>
