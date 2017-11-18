@@ -5,7 +5,7 @@ class Hewan
 
     // public artinya property ini bisa d akses dan d ubah dr luar badan/scope {} kelas ini
     public $makanan;
-    // public artinya property ini bisa d akses dan d ubah dr luar badan/scope {} kelas ini
+    // private artinya property ini tidak bisa d akses dan d ubah dr luar badan/scope {} kelas ini
     private $caraBergerak;
 
     /**
